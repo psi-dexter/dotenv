@@ -1,0 +1,9 @@
+{
+	"256color": true,
+	"theme": "later-this-evening",
+	"unix_term": "xterm-256color",
+	"view_settings":
+	{
+		"font_face": "Hack Nerd Font",
+	}
+}
