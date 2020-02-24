@@ -1,4 +1,4 @@
-variable person {
+variable person_dexter {
   type = object({
     Name = string
     Age  = number
@@ -9,11 +9,12 @@ variable person {
   }
 }
 
+
 locals {
-  per = var.person
+  per = var.person_dexter
 }
-output "test_1" {
-  value = var.person["Name"]
+output "person_dexter" {
+  value = var.person_dexter["Name"]
 }
 output "test_locals" {
   value = local.per.Name
