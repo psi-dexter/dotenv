@@ -1,4 +1,4 @@
-variable user { default = "dexter" }
+variable user {}
 
 
 data "template_file" "bootstrap" {
@@ -45,6 +45,7 @@ resource "null_resource" "environment" {
 data "template_file" "zsh_rc" {
   template = "${file("${path.module}/templates/zsh_rc.tpl")}"
   vars = {
+    user         = var.user
     aliases      = "${file("${path.module}/templates/zsh_aliases.tpl")}"
     powerlevel9k = "${file("${path.module}/templates/zsh_powerlevel9k.tpl")}"
   }
