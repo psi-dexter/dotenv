@@ -1,2 +1,10 @@
 hour = 4
-main = rule { hour >= 0 and hour < 12 }
+past_midnight = rule { hour >= 0 }
+before_noon   = rule { hour < 12 }
+data = { "a": 2, "b": 3 }
+print("val:", values(data))
+main = rule {
+
+    past_midnight and
+    before_noon
+}
