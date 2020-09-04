@@ -65,7 +65,31 @@ ${powerlevel9k}
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+  zsh-apple-touchbar
+  git
+  osx
+  bundler
+  brew
+  cask
+  colorize
+  command-not-found
+  copybuffer
+  emoji-clock
+  encode64
+  geeknote
+  httpie
+  iterm2
+  osx
+  pip
+  sublime
+  systemadmin
+  vscode
+  copyfile
+  nomad
+  terraform
+  vault
+  zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 

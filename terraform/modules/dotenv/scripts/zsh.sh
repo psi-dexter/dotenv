@@ -5,5 +5,5 @@ brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 brew cask install font-inconsolata
 brew cask install font-hasklig-nerd-font
-brew tap sambadevi/powerlevel9k
-brew install powerlevel9k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+#sed -i "s/robbyrussell/powerlevel10k\/powerlevel10k/g" /root/.zshrc
