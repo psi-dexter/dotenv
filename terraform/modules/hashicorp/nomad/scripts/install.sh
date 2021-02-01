@@ -3,7 +3,7 @@ set -e
 
 cd /tmp
 
-nomadVERSION=$1
+nomadVERSION=1.0.2
 
 nomadDOWNLOAD=https://releases.hashicorp.com/nomad/${nomadVERSION}/nomad_${nomadVERSION}_linux_amd64.zip
 nomadCONFIGDIR=/etc/nomad.d
