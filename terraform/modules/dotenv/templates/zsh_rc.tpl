@@ -120,3 +120,4 @@ ${aliases}
 
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -1,9 +1,14 @@
 {
+  "default_config": {
+    "linux": null,    // login shell
+    "osx": "Zsh",      // login shell
+    "windows": "Command Prompt",
+  },
 	"256color": true,
-	"theme": "later-this-evening",
+	"theme": "ic-green-ppl",
 	"unix_term": "xterm-256color",
 	"view_settings":
 	{
-		"font_face": "Hack Nerd Font",
-	}
+		"font_face": "MesloLGS NF",
+	},
 }
